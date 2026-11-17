@@ -1,0 +1,1 @@
+"""Komut dosyaları paketi (.namespace)."""

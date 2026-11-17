@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Insan kalibrasyon kayitlari gizliligi (yalnizca kal- prefiksliler)
+data/recordings/kal-*.jsonl
+
+# Gecici degub ciktilari
+tests/e_*.txt
+unittest_err.txt
+unittest_out.txt
+
+# Local secrets and personal configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Recordings: only explicitly synthetic sample files are published
+data/recordings/*
+!data/recordings/sent-*.jsonl
+
+# Local tools and editor state
+venv/
+.vscode/
+.idea/
+*.log

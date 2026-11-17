@@ -146,4 +146,3 @@ kisisel insan hareketlerinden egitilmis bir model degildir. `data/recordings/sen
 sentetik orneklerdir. Kisisel kalibrasyon kayitlari, sanal ortam ve gizli ayar
  dosyalari Git disinda tutulur. Kendi verinizle egitimden sonra model dosyasini
 herkese acik bir commit'e eklemeden once icerigini kontrol edin.
-
